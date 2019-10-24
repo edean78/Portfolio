@@ -35,6 +35,7 @@ nav {
 
 .page-footer {
     background-color: #025a9d;
+    text-align: center;
 }
 
 h3{
@@ -140,8 +141,7 @@ h3{
     padding: 10px;
 }
 
-
-
-
-
-
+.fab{
+    padding: 5px;
+    cursor: pointer;
+}

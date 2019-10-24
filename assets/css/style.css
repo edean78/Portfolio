@@ -47,6 +47,7 @@ nav.nav-center ul li a {
 
 .page-footer {
     background-color: #025a9d;
+    text-align: center;
 }
 
 .about-me {
@@ -62,6 +63,11 @@ nav.nav-center ul li a {
     color: black;
     font-size: 20px;
     line-height: 30px;
+}
+
+.fab{
+    padding: 5px;
+    cursor: pointer;
 }
 
 
