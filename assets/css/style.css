@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box; 
-}  */
+} 
 
 body {
     display: flex;
@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    background-color: lightgray;
   }
 
   main {
@@ -16,20 +17,20 @@ body {
 
 .page-header {
     width: 100%;
-    height: 33%;
+    /* height: 20%; */
     background-color:  #025a9d;
     text-align: center;
   }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     padding: 5px;
 }
 
 nav {
-    background-color:  #025a9d;
+    background-color: #025a9d;
     box-shadow: none;
 }
 
@@ -43,4 +44,27 @@ nav.nav-center ul li {
 nav.nav-center ul li a {
     display: inline-block;
 }
+
+.page-footer {
+    background-color: #025a9d;
+}
+
+.about-me {
+    padding: 0;
+    margin: 0;
+}
+
+.info-header h4{
+    color: #025a9d;
+}
+
+.about-me p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
 

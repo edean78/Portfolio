@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box; 
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: lightgray;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-header {
+    width: 100%;
+    background-color:  #025a9d;
+    text-align: center;
+  }
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding:10px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    background-color: #025a9d;
+    box-shadow: none;
+}
+
+.page-footer {
+    background-color: #025a9d;
+}
+
+.contact-form {
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+
+.material-icons {
+    color: white;
+    display: block;
+}
+
+.material-icons:hover {
+    color: white;
+}
+
+/* label color */
+.input-fname label,
+.input-lname label,
+.input-email label,
+.input-message label {
+    color: #025a9d;
+}
+
+/* label focus color */
+.fname-prefix input[type=text]:focus + label {
+    color: #025a9d;
+}
+
+.lname-prefix input[type=text]:focus + label {
+    color: #025a9d;
+}
+
+.email-prefix input[type=text]:focus + label {
+    color: #025a9d;
+}
+
+.ta-prefix input[type=text]:focus + label {
+    color: #025a9d;
+}
+
+/* label underline focus color */
+.input-fname input[type=text]:focus {
+    border-bottom: 1px solid #025a9d;
+    box-shadow: 0 1px 0 0 #025a9d;
+}
+
+  /* valid color */
+.input-fname input[type=text].valid {
+    border-bottom: 1px solid #025a9d;
+    box-shadow: 0 1px 0 0 #025a9d;
+}
+
+  /* invalid color */
+.input-fname input[type=text].invalid {
+    border-bottom: 1px solid #025a9d;
+    box-shadow: 0 1px 0 0 #025a9d;
+}
+
+/* icon prefix focus color */
+.input-fname .prefix.active {
+    color: #025a9d;
+}
+
+.btn {
+    background: #025a9d;
+    margin-left: 15px;
+}
+
+.btn:hover {
+
+}
+
+
+

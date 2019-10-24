@@ -7,13 +7,77 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/port-styles.css">
 
     <title>Ed Dean Portfolio</title>
 
 </head>
 
 <body>
+
+    <header class="page-header">
+        <div class="container">
+            <nav>
+                <div class="nav-wrapper">
+                    <span class="logo">
+                        <a href="index.html"><img src="assets/images/firstdayofschool.jpg" alt="profilepic"><h5>Ed Dean</h5></a>
+                    </span>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Resume</a></li>
+                        <li class="active"><a href="contact.html">Contact Me</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <form class="contact-form col s12">
+                    <div class="row">
+                        <div class="input-fname col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="fname_prefix" type="text" class="validate">
+                            <label for="fname_prefix">First Name</label>
+                        </div>
+                        <div class="input-lname col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="lname_prefix" type="text" class="validate">
+                            <label for="lname_prefix">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-email col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="email_prefix" type="email" class="validate">
+                            <label for="email_prefix">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-message col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <textarea id="ta_prefix" class="materialize-textarea"></textarea>
+                            <label for="ta_prefix">Enter your message here...</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+
+    </footer>
 
     <!-- Link to jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
